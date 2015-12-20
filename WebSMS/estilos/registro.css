@@ -1,0 +1,144 @@
+﻿body {
+    background-image:url("/img/background_web.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width:auto;
+    height:auto;
+}
+
+#reg_contenido{
+    width:400px;
+    border:solid;
+    border-radius: 4px;
+    border-color:black;
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+    margin-top:100px;
+    vertical-align:middle;
+    text-align:center;
+}
+
+#txb_user
+{
+    font-style: italic;
+    font-weight: bold;
+    font-size:large;
+    font-family: Calibri;
+    text-align: center;
+    background-color:Window;
+    border-radius:3px 4px;
+    color:black;
+    
+}
+
+#txb_pass
+{
+    font-style: italic;
+    font-weight: bold;
+    font-size:large;
+    color: black;
+    font-family: Calibri;
+    text-align: center;
+    background-color:Window;
+    border-radius:3px 4px;   
+}
+
+#txb_usuario
+{
+    font-style: italic;
+    font-weight: bold;
+    font-size:large;
+    color: black;
+    font-family: Calibri;
+    text-align: center;
+    background-color:Window;
+    border-radius:3px 4px;   
+}
+
+#txb_nombre
+{
+    font-style: italic;
+    font-weight: bold;
+    font-size:large;
+    color: black;
+    font-family: Calibri;
+    text-align: center;
+    background-color:Window;
+    border-radius:3px 4px;   
+}
+
+#txb_apellido
+{
+    font-style: italic;
+    font-weight: bold;
+    font-size:large;
+    color: black;
+    font-family: Calibri;
+    text-align: center;
+    background-color:Window;
+    border-radius:3px 4px;   
+}
+
+#txb_descripcion
+{
+    font-style: italic;
+    font-weight: bold;
+    font-size:large;
+    color: black;
+    font-family: Calibri;
+    text-align: center;
+    background-color:Window;
+    border-radius:3px 4px;   
+}
+
+#txb_correo
+{
+    font-style: italic;
+    font-weight: bold;
+    font-size:large;
+    color: black;
+    font-family: Calibri;
+    text-align: center;
+    background-color:Window;
+    border-radius:3px 4px;   
+}
+
+#btn_cancelar
+{
+    padding: 5px;
+    font-style: italic;
+    font-weight: bold;
+    font-size:medium;
+    color: black;
+    font-family: Calibri;
+    text-align: center;
+    background-color:white;
+    border-radius:3px 4px;   
+}
+
+#btn_registrar
+{
+    padding: 5px;
+    font-style: italic;
+    font-weight: bold;
+    font-size:medium;
+    color: black;
+    font-family: Calibri;
+    text-align: center;
+    background-color:white;
+    border-radius:3px 4px;   
+}
+
+#lbl_error
+{
+    font-style: italic;
+    font-weight: bold;
+    align-content: center;
+    font-size:medium;
+    color: red;
+    font-family: Calibri;
+    text-align: center;
+    
+}

@@ -1,0 +1,317 @@
+body{
+    
+	background-color: deepskyblue;
+}
+
+/*Fomarto de diseño de página web*/
+#contenedor{
+	width: 1280px;
+	height: 1000px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#content{
+
+    width: 1000px;
+ 	height: 177px;
+ 	margin-left: 274px;
+ 	margin-top: 10px;
+    font-family:Calibri;
+    font-size: 15px;
+    text-align:center;
+    color:deepskyblue;
+    font-weight:700;
+
+}
+
+/*Encabezado de arriba donde esta la imagen y la linea abajo*/
+#encabezado
+{
+	width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border-bottom:solid 2px;
+	border-color: black;
+
+}
+/*Ubicado dentro de encabezado para saber que usuario esta logueado al sistema y posicionado a la derecha*/
+#user-status
+{	
+	margin-top: 25px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	width: 250px;
+	height: 50px;
+	float:right;
+	border:solid;
+	border-color: deepskyblue;
+	border-radius: 2px;
+	text-align: center;
+    color:black;
+    font-family:Calibri;
+    font-size:medium;
+    font-weight: bold;
+}
+
+#btn_disconnect {
+    background-color:white;
+    border-color:deepskyblue;
+    font-family:Calibri;
+    font-size: 16px;
+    border-radius: 3px;
+    font-weight:bold;
+}
+
+#btn_disconnect:hover {
+    background-color:deepskyblue;
+    border-color:black;
+    font-family:Calibri;
+    font-size: 16px;
+    border-radius: 3px;
+    font-weight:bold;
+    color:white;
+}
+
+/*Posicion de menú de navegacion a la izquierda*/
+#menu-nav
+{	
+	width: 250px;
+	height: 87%;
+	margin-left: 10px;
+	margin-top: 10px;
+	border:solid 2px;
+	border-color: deepskyblue;
+	float: left;
+}
+/*Darle diseño al menú*/
+#menu li {
+        
+        background-position: 0% 0%;
+        background-image: linear-gradient(to bottom, #3498db, #2980b9);
+        -webkit-border-radius: 2;
+        -moz-border-radius: 2;
+        border-radius: 2px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 16px;
+        padding: 10px 20px 10px 20px;
+        border: solid #ffffff 2px;
+        text-decoration: none;
+        height: 18px;
+        background-color: #3498db;
+        background-repeat: repeat;
+        background-attachment: scroll;
+}
+/*Darle diseño al menú del listado*/
+#menu li:hover {
+background: #3cb0fd;
+text-decoration: none;        
+}
+
+ #msg-content{
+ 	
+    font-family:Calibri;
+    font-size: 15px;
+    text-align:center;
+    color:deepskyblue;
+    font-weight:700;
+ }
+
+ /*Contador de caracteres en color rojo y centrado*/
+#txb_char{
+    color: red;
+    font-family:Calibri; 
+    text-align:center;   
+}
+
+/*Texto de encabezado Enviar*/
+#txt_enviar {
+    font-family:Calibri;
+    font-size:26px;
+    text-align:left;
+    color:black;
+}
+
+/*Boton enviar personalizado*/
+#btn_sendmsg {
+    background-color:deepskyblue;
+    border-color:azure;
+    font-family:Calibri;
+    font-size: 14px;
+}
+
+/*TextBox Numero de Linea Fuente y tamaño personalizado*/
+#txb_numLinea {
+    font-family:Calibri;
+    font-size: 14px;
+}
+
+/*TextBox Mensaje Fuente y tamaño personalizado*/
+#Txb_mensaje {
+    font-family:Calibri;
+    font-size: 14px;
+}
+
+/*Texto de encabezado Contactos*/
+#txt_contactos {
+    font-family:Calibri;
+    font-size:26px;
+    text-align:left;
+    color:black;
+    margin-left:20px;
+}
+
+#menu_nav_top {
+
+   margin-top:20px;
+   margin-left:20px;
+   
+
+}
+
+#menu_nav_top li {
+
+    list-style:none;
+    float:left;
+    margin-right: 8px;
+}
+
+#menu_nav_bottom {
+
+   margin-top: 55px;
+   margin-left:20px; 
+
+}
+
+#menu_nav_bottom li {
+
+    list-style:none;
+    float:left;
+    margin-right: 8px;
+}
+
+#crt-group {
+    
+   margin-top: 130px;
+   margin-left:20px;
+
+}
+
+#view-edit-group {
+    
+   margin-top: 130px;
+   margin-left:20px;
+   align-content:center;
+   text-align:center;
+
+}
+
+#result {
+    
+   
+   text-align:center;
+   margin-left:20px;
+
+}
+
+#btn_group {
+    background-color:white;
+    border-color:deepskyblue;
+    font-family:Calibri;
+    font-size: 16px;
+    border-radius: 3px;
+    font-weight:bold;
+}
+
+#btn_group:hover {
+    background-color:deepskyblue;
+    border-color:black;
+    font-family:Calibri;
+    font-size: 16px;
+    border-radius: 3px;
+    font-weight:bold;
+    color:white;
+}
+
+#btn_view_delete_group {
+    background-color:white;
+    border-color:deepskyblue;
+    font-family:Calibri;
+    font-size: 16px;
+    border-radius: 3px;
+    font-weight:bold;
+}
+
+#btn_view_delete_group:hover {
+    background-color:deepskyblue;
+    border-color:black;
+    font-family:Calibri;
+    font-size: 16px;
+    border-radius: 3px;
+    font-weight:bold;
+    color:white;
+}
+
+#btn_search_contact {
+    background-color:white;
+    border-color:deepskyblue;
+    font-family:Calibri;
+    font-size: 16px;
+    border-radius: 3px;
+    font-weight:bold;
+}
+
+#btn_search_contact:hover {
+    background-color:deepskyblue;
+    border-color:black;
+    font-family:Calibri;
+    font-size: 16px;
+    border-radius: 3px;
+    font-weight:bold;
+    color:white;
+}
+
+#btn_import {
+    background-color:white;
+    border-color:deepskyblue;
+    font-family:Calibri;
+    font-size: 16px;
+    border-radius: 3px;
+    font-weight:bold;
+    width: 231px;
+}
+
+#btn_import:hover {
+    background-color:deepskyblue;
+    border-color:black;
+    font-family:Calibri;
+    font-size: 16px;
+    border-radius: 3px;
+    font-weight:bold;
+    color:white;
+}
+
+#button{
+    background-color:white;
+    border-color:deepskyblue;
+    font-family:Calibri;
+    font-size: 16px;
+    border-radius: 3px;
+    font-weight:bold;
+    width: 231px;
+}
+
+#button:hover{
+    background-color:deepskyblue;
+    border-color:black;
+    font-family:Calibri;
+    font-size: 16px;
+    border-radius: 3px;
+    font-weight:bold;
+    color:white;
+}
+

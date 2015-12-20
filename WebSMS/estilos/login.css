@@ -1,0 +1,90 @@
+﻿body {
+    background-image:url(/img/back_login.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% auto;
+    font-family:Calibri;
+    text-align:center;
+    color:black;
+    font-weight:bold;
+    font-size:large;
+}
+
+#login_content{
+    width:400px;
+    border:solid;
+    border-radius: 4px;
+    border-color:black;
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+    margin-top:150px;
+    vertical-align:middle;
+    text-align:center;
+   
+    
+}
+
+#txb_user
+{
+    font-style: italic;
+    font-weight: bold;
+    font-size:large;
+    font-family: Calibri;
+    text-align: center;
+    background-color:Window;
+    border-radius:3px 4px;
+    color:black;
+    
+}
+
+#lbl_pass
+{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    align-content: center;
+    font-size:medium;
+    color: black;
+    font-family: Calibri;
+    
+    
+}
+
+#txb_pass
+{
+    font-style: italic;
+    font-weight: bold;
+    font-size:large;
+    color: black;
+    font-family: Calibri;
+    text-align: center;
+    background-color:Window;
+    border-radius:3px 4px;   
+}
+
+#btn_login
+{
+    padding: 5px;
+    font-style: italic;
+    font-weight: bold;
+    font-size:medium;
+    color: black;
+    font-family: Calibri;
+    text-align: center;
+    background-color:white;
+    border-radius:3px 4px;   
+}
+
+#lbl_error
+{
+    font-style: italic;
+    font-weight: bold;
+    align-content: center;
+    font-size:medium;
+    color: red;
+    font-family: Calibri;
+    text-align: center;
+    
+}
